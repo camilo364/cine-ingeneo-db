@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F35A466-6DBA-3D81-8531-661798A097D3" name="TBL_SILLAS">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:28:41 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SILLA" id="3873A409-EF51-E19B-877E-60F5B73D756B">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SALA" id="8B792C11-C9D9-C0D1-9887-449C90B437E2">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B23E8FD-81EA-6BDD-72EE-58B6C737C9F3" referredColumn="EC847C1B-9F7C-9096-6AF6-230AABF0A49D"/>
+</associations>
+</Column>
+<Column name="LETRA" id="F9D182C9-964D-BFED-C109-A592B47826B5">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="7510C56E-7BC1-B506-B1EB-A182A36377FA">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="4253BABB-187D-72FF-9541-9B71B9AC04CA">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07FE5235-277B-CB1B-7126-E679B7C4C9CB" name="TBL_SILLAS_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:42:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3873A409-EF51-E19B-877E-60F5B73D756B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B24C67E1-C9A9-1C93-5E65-E29DAB7C7BFF" name="TBL_SILLAS_TBL_SALAS_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:43:16 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B792C11-C9D9-C0D1-9887-449C90B437E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

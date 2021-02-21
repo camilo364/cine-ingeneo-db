@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="501C42BA-1EF3-BAA8-F03F-D387B8F29F1E" name="TBL_AGENDA_SALAS">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:18:40 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<rowArchival>true</rowArchival>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AGENDA" id="68E87339-BB85-6EDD-CC9B-A2E1EF93585A">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:38 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SALA" id="6D0411C2-33CB-34E3-AFB1-270563D43DD4">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:38 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D678EBC4-67BC-D72B-CC04-D00B6E9C814E" referredColumn="EC847C1B-9F7C-9096-6AF6-230AABF0A49D"/>
+</associations>
+</Column>
+<Column name="ID_PELICULA" id="D2369B0C-0D88-B1DA-B816-D0030D519E93">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:38 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDB65F14-FAA4-EE15-0363-017A657DD9D7" referredColumn="7C32258A-FA51-3AC2-764A-080906CF69F5"/>
+</associations>
+</Column>
+<Column name="FECHA_PROYECCION" id="FFB63B5D-DF94-E4FF-4F84-C871061A8A09">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:38 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN|" id="01E25036-E8EE-345C-5A7A-DF44DF6789E1">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:38 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2E6BA7A-416D-7F96-3DCF-8C4177842325" name="TBL_AGENDA_SALAS_TBL_PELICULA_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:46:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2369B0C-0D88-B1DA-B816-D0030D519E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92208280-B3E9-2D3D-4C38-92841252958D" name="TBL_AGENDA_SALAS_TBL_SALAS_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:46:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0411C2-33CB-34E3-AFB1-270563D43DD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

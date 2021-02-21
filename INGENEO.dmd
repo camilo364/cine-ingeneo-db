@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="INGENEO" id="984BD0A8-39DF-AEEA-F1E7-0093FA59526D" version="3.5">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:12:42 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>984BD0A8-39DF-AEEA-F1E7-0093FA59526D</designId>
+</OSDM_Design>

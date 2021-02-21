@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDB65F14-FAA4-EE15-0363-017A657DD9D7" containerWithKeyObject="501C42BA-1EF3-BAA8-F03F-D387B8F29F1E" localFKIndex="B2E6BA7A-416D-7F96-3DCF-8C4177842325" name="TBL_AGENDA_SALAS_TBL_PELICULA_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:46:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<referredTableLongName>TBL_PELICULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A808F935-DE35-546F-242D-D52B73445A23</referredTableID>
+<keyObject>D43BAED8-9A78-CFA2-99C8-F9406563AEBB</keyObject>
+<referredKeyID>D43BAED8-9A78-CFA2-99C8-F9406563AEBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PELICULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28725336-7701-6657-2010-2EA7359D7430" name="TBL_RESERVA">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 18:26:51 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="90FB7B0A-4672-DD3A-6917-F95684CA35AD">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:56:18 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESERVA" id="C7719719-35E7-D09F-2CE1-D5BAB8D02F90">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:56:18 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="EAB1AB47-EBAD-9DA0-FAE5-319A54142D1C">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:56:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[RESERVADO, PAGADO, CANCELADO]]></commentInRDBMS>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SALA" id="2AA7BF31-9341-B0A6-9DDD-D34C18FB6AC3">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:56:18 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D7BAD61-B0F1-6B36-D599-7F7DC161C007" referredColumn="EC847C1B-9F7C-9096-6AF6-230AABF0A49D"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="D695BEF0-2FA0-421A-D5C3-3E350F808B46">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:58:35 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06460A06-B6FB-CAD7-9758-07CF08D512EA" referredColumn="18550845-51F6-9AB3-F625-0E3D2B8659A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39D90C85-33A7-F558-5C2F-B356308D2CED" name="TBL_RESERVA_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:56:18 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FB7B0A-4672-DD3A-6917-F95684CA35AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="455A1C47-021F-19C7-7614-2C4DD4420240" name="TBL_RESERVA_TBL_SALAS_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:58:35 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AA7BF31-9341-B0A6-9DDD-D34C18FB6AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="217DDF35-CCBE-3EC3-C6B5-0BEACD956BFB" name="TBL_RESERVA_TBL_CLIENTES_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:58:35 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D695BEF0-2FA0-421A-D5C3-3E350F808B46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57F09373-3866-0E74-3165-8E52EF5E0223" name="CIUDAD">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:28:15 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CIUDAD" id="9AF3A1B7-A952-3240-B77B-2094AB78E99B">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:40:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CIUDAD" id="841F4A2C-AF8C-C657-1720-75967691D1EC">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:40:36 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E634FAA9-19B9-6C7F-4265-2762B5824112" name="CIUDAD_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:40:41 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF3A1B7-A952-3240-B77B-2094AB78E99B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

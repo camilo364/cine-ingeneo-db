@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACD58607-49B1-98E5-BAC2-DCCD55908FA4" name="TBL_SUCURSAL">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:26:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUCURSAL" id="D1693E09-CC6C-216F-2B6C-E45517B65205">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:36:50 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="D5D4A75F-EEF9-B1CC-487D-04C559113D23">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:38:57 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="5E336A59-18C7-FF13-10C0-6003049133E3">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:38:57 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DIRECTOR" id="3D3F5459-0309-7F9A-CF07-EBFA88DB9E9D">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:38:57 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23DD6F6F-9F52-E425-B7A9-F657A33B9205" referredColumn="065680BC-C725-EFBB-AF1F-F1ED4B1DF630"/>
+</associations>
+</Column>
+<Column name="ID_CIUDAD" id="697A6B64-4F62-6A52-5957-F097FC16E6CE">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:38:57 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA04C658-0E4F-6997-3763-8DCB8A935F5D" referredColumn="9AF3A1B7-A952-3240-B77B-2094AB78E99B"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="EA624B07-FB53-5CF2-34F0-513E6CE22F85">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:38:57 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C7D3DB3-D382-A8C1-259F-72A23CC4E135" name="TBL_SUCURSAL_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:39:06 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1693E09-CC6C-216F-2B6C-E45517B65205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A000306C-2F33-162E-B3E2-14D3C8757CEB" name="TBL_SUCURSAL_CIUDAD_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:47:14 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="697A6B64-4F62-6A52-5957-F097FC16E6CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="263F5F7A-A428-E6CF-8FD7-3D2C9C3F05C3" name="TBL_SUCURSAL_TBL_EMPLEADOS_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:47:14 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3F5459-0309-7F9A-CF07-EBFA88DB9E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

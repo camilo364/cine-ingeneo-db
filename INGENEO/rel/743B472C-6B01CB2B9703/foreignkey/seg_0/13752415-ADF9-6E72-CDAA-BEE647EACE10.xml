@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13752415-ADF9-6E72-CDAA-BEE647EACE10" containerWithKeyObject="C1B7A04F-267A-41D6-7F20-9AC276E90088" localFKIndex="39BD373F-70E2-22FF-7603-D7DA59C4EF61" name="TBL_RESERVA_SILLA_TBL_RESERVA_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<referredTableLongName>TBL_RESERVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28725336-7701-6657-2010-2EA7359D7430</referredTableID>
+<keyObject>39D90C85-33A7-F558-5C2F-B356308D2CED</keyObject>
+<referredKeyID>39D90C85-33A7-F558-5C2F-B356308D2CED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
