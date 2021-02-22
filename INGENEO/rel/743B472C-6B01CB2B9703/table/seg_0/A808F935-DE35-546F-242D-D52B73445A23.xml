@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A808F935-DE35-546F-242D-D52B73445A23" name="TBL_PELICULA">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:51:35 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PELICULA" id="7C32258A-FA51-3AC2-764A-080906CF69F5">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ORIGINAL" id="19B342DA-3D7D-090A-E1AF-224A7F07C804">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LOCAL" id="A1378E83-C195-7C7B-5E4F-33BA7855647D">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ESTRENO" id="627756EB-C728-01EF-31C6-E8CFEC943227">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_IMAGEN" id="3267BE7C-2979-AAB1-304C-C9763C459E32">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DE4F859-6E30-0F85-4FAB-F65988DF5B88" referredColumn="C1CB2F34-0D4C-693F-11DC-F508E0D5B9E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D43BAED8-9A78-CFA2-99C8-F9406563AEBB" name="TBL_PELICULA_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 16:57:03 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C32258A-FA51-3AC2-764A-080906CF69F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3B749D2-2B61-68D9-5CD3-42E47D36709A" name="TBL_PELICULA_TBL_IMAGEN_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:10:51 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3267BE7C-2979-AAB1-304C-C9763C459E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

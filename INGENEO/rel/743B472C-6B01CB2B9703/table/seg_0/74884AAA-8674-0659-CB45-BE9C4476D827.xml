@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74884AAA-8674-0659-CB45-BE9C4476D827" name="TBL_PELICULA_SUCURSAL">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:00:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A4EAECCE-0899-CD6B-8F71-5614C686EC2E">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PELICULA" id="1093C513-80D8-C183-306C-28F57B30FBFE">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A59922-9F09-4216-B779-349BC56AFC8B" referredColumn="7C32258A-FA51-3AC2-764A-080906CF69F5"/>
+</associations>
+</Column>
+<Column name="ID_SUCURSAL" id="2FCBE8AE-FC32-0459-8515-EE190A10EF11">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B294EE7D-8C92-2A93-90D4-F25A08024947" referredColumn="D1693E09-CC6C-216F-2B6C-E45517B65205"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="468B94AC-6332-F316-2FA4-58F43E09C101" name="TBL_PELICULA_SUCURSAL_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4EAECCE-0899-CD6B-8F71-5614C686EC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C91044E4-5706-ACA5-484E-A863B4B69F99" name="TABLE_10_TBL_PELICULA_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1093C513-80D8-C183-306C-28F57B30FBFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7AF7876-CD03-B831-F660-23D8A43FAD3A" name="TABLE_10_TBL_SUCURSAL_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FCBE8AE-FC32-0459-8515-EE190A10EF11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

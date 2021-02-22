@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B294EE7D-8C92-2A93-90D4-F25A08024947" containerWithKeyObject="74884AAA-8674-0659-CB45-BE9C4476D827" localFKIndex="E7AF7876-CD03-B831-F660-23D8A43FAD3A" name="TABLE_10_TBL_SUCURSAL_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 17:02:12 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<referredTableLongName>TBL_SUCURSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ACD58607-49B1-98E5-BAC2-DCCD55908FA4</referredTableID>
+<keyObject>6C7D3DB3-D382-A8C1-259F-72A23CC4E135</keyObject>
+<referredKeyID>6C7D3DB3-D382-A8C1-259F-72A23CC4E135</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUCURSAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

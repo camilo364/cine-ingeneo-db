@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81DD8D66-A979-962E-5349-88E2326E6662" name="TBL_CLIENTES">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:49:43 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDENTIFICACIO " id="18550845-51F6-9AB3-F625-0E3D2B8659A0">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:52:27 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="199C2064-CE96-ACEF-75F9-E51A35774ED7">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:52:27 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPOCLIENTE" id="FEA31EDA-2695-D647-1AB7-5448B2F74A35">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:52:27 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39AAC1AC-1222-2D8B-F534-D88A01E2A37D" referredColumn="0951CCB1-75C6-4AB7-79D5-4AEE12613F33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A12678E8-BCC6-4027-3C17-51C5B08694FD" name="TBL_CLIENTES_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:52:27 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18550845-51F6-9AB3-F625-0E3D2B8659A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D4193BC-B2D5-27B0-997B-D2F47C696BB8" name="TBL_CLIENTES_TBL_TIPO_CLIENTE_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:58:59 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEA31EDA-2695-D647-1AB7-5448B2F74A35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

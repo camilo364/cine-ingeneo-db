@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B649658F-D6FB-0201-AF7D-C1006884D45E" name="TBL_FORMATO">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:30:51 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F69FF876-FD9A-1BBB-175D-A2DD1FCC8C3D">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:51:11 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORMATO" id="64677733-8FFC-B8F0-C5A4-D786C7FC2F6D">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:51:11 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="DC45205A-66D8-BD4B-78A8-A0CDA456BD49">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:51:11 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FACB0B1-36E3-9093-4DFC-73F166B79098" name="TBL_FORMATO_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:51:19 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F69FF876-FD9A-1BBB-175D-A2DD1FCC8C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

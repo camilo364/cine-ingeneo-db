@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85BECC9E-8FAA-1A61-7869-57A3E786F0B4" name="TBL_TIPO_CLIENTE">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:52:30 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0951CCB1-75C6-4AB7-79D5-4AEE12613F33">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:53:47 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO CLIENTE" id="C0B50054-26F0-AD8C-4347-183117C9F7B1">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:53:47 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="522775FF-CECD-DB83-2DA4-4AFFCFEA08C6">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:53:47 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8131AADB-5F3A-B21E-D718-844B74DD78AC" name="TBL_TIPO_CLIENTE_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:53:47 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0951CCB1-75C6-4AB7-79D5-4AEE12613F33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

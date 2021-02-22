@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1B7A04F-267A-41D6-7F20-9AC276E90088" name="TBL_RESERVA_SILLA">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:49:59 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E076A0DE-CC76-C4AF-4C2D-78A978FD80ED">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RESERVA" id="B735DE1E-75FF-E120-D1A0-D5EF037B135A">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13752415-ADF9-6E72-CDAA-BEE647EACE10" referredColumn="90FB7B0A-4672-DD3A-6917-F95684CA35AD"/>
+</associations>
+</Column>
+<Column name="ID_SILLA" id="9C180508-F74C-FBF5-1639-E1E6CD99B715">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E13ADF83-C3A2-6475-51DC-491C016C3A5D" referredColumn="3873A409-EF51-E19B-877E-60F5B73D756B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="179600BA-0BBE-A551-160F-0C498EDB603F" name="TBL_RESERVA_SILLA_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E076A0DE-CC76-C4AF-4C2D-78A978FD80ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE88BA75-3CB5-838A-439F-E6F619120E6F" name="TBL_RESERVA_SILLA_TBL_SILLAS_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C180508-F74C-FBF5-1639-E1E6CD99B715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39BD373F-70E2-22FF-7603-D7DA59C4EF61" name="TBL_RESERVA_SILLA_TBL_RESERVA_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-21 19:57:32 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B735DE1E-75FF-E120-D1A0-D5EF037B135A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

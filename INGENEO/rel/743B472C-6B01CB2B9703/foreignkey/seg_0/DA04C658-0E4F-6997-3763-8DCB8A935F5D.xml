@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA04C658-0E4F-6997-3763-8DCB8A935F5D" containerWithKeyObject="ACD58607-49B1-98E5-BAC2-DCCD55908FA4" localFKIndex="A000306C-2F33-162E-B3E2-14D3C8757CEB" name="TBL_SUCURSAL_CIUDAD_FK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:47:14 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<referredTableLongName>CIUDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57F09373-3866-0E74-3165-8E52EF5E0223</referredTableID>
+<keyObject>E634FAA9-19B9-6C7F-4265-2762B5824112</keyObject>
+<referredKeyID>E634FAA9-19B9-6C7F-4265-2762B5824112</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CIUDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

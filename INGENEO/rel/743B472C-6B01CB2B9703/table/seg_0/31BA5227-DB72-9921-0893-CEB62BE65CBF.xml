@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31BA5227-DB72-9921-0893-CEB62BE65CBF" name="TBL_EMPLEADOS">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:22:59 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>EMPLEADOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="065680BC-C725-EFBB-AF1F-F1ED4B1DF630">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:24:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8FB9A8E4-E823-09A5-BC6A-43E62B0F9B42">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:24:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="ECD433F9-3CB8-7EE9-8E67-20C0552A46F8">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:24:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62C668D4-77C2-1B27-C551-552C34A3E186" name="TBL_EMPLEADOS_PK">
+<createdBy>camil</createdBy>
+<createdTime>2021-02-20 19:24:54 UTC</createdTime>
+<ownerDesignName>INGENEO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="065680BC-C725-EFBB-AF1F-F1ED4B1DF630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
